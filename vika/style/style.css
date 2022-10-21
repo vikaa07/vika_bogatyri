@@ -1,0 +1,45 @@
+*,*::before{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.gg{
+    width: 100px;
+    height: 100px;
+    background-color: blue;padding-top: 50px;
+}
+.logo img{
+    width: 700px;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav li{
+    margin-right: 50px;
+}
+.nav li:last-child{
+    margin-right: 0;
+} 
+nav a{
+    color: darkred;
+}
+nav a:hover{
+    color: deeppink;
+}
+
